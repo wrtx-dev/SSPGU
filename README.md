@@ -1,6 +1,6 @@
 # README
 
-**SSPGU(simple serial port GUI utility)**是一款开源、简单易用的跨平台串口工具。
+ **SSPGU(simple serial port GUI utility)** 是一款开源、简单易用的跨平台串口工具。
 
 新手友好的设计，直观的图形化界面，易于上手，满足基础的串口调试功能，带有串口终端模式。
 
