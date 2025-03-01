@@ -53,7 +53,7 @@ const Term = () => {
     }, [])
     return (
         <>
-            <div className="flex flex-col w-full h-full bg-gray-50" ref={ref} />
+            <div className="flex flex-col w-full h-full bg-black" ref={ref} />
             <TransDetail ref={transRef} />
         </>
     )
@@ -88,7 +88,7 @@ export default function ContentUI() {
             <div className={`w-full h-full overflow-hidden ${tabname !== "debug" ? "hidden" : ""}`}>
                 <DebugUI />
             </div>
-            <div className={`w-full h-full overflow-hidden ${tabname === "debug" ? "hidden" : ""}`}>
+            <div className={`w-full h-full bg-black overflow-hidden ${tabname === "debug" ? "hidden" : ""}`}>
                 <Term />
             </div>
         </div>
